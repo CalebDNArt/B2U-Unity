@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: dnart.b2umaterialmaster::B2U.B2UPaletteData
   paletteName: Sample_Scene_Ice
   palettePath: C:/Users/Caleb/Desktop/B2U Palettes/Sample_Scene_Ice.json
-  folderPath: Assets\Samples\B2U Sample Scene
+  folderPath: Packages\ca.dnart.b2umaterialmaster\Samples\B2U Sample Scene
   serializedMaterials:
   - isBiomeResponsive: 0
     biomeType: INDEPENDENT
@@ -2034,8 +2034,8 @@ MonoBehaviour:
       pixelChannel: 3
       minMax: {x: 0, y: 1}
       type: 0
-  colorLUT: {fileID: 2800000, guid: 4eaa2f9a7b58f7b41a33eb147f0b8de4, type: 3}
-  propertyLUT: {fileID: 2800000, guid: d805eaf4cf14bf34682fabdfa3a22be7, type: 3}
+  colorLUT: {fileID: 2800000, guid: 82db27c9d08919741b0d41a2d5238de8, type: 3}
+  propertyLUT: {fileID: 2800000, guid: 05ba8a1694fee3343bb81d96d3baf2fc, type: 3}
   iridescenceLUT: {fileID: 2800000, guid: 71b07ae1b04f85a4db784fd098689f70, type: 3}
   emissionPatterns: {fileID: 2800000, guid: ddcb04ba2f40a784c95991ab640a6e23, type: 3}
   detailAtlas: {fileID: 18700000, guid: 8809015c26d825d4abdfbea7159f48db, type: 3}

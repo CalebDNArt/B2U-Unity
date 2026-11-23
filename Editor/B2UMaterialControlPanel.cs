@@ -628,7 +628,15 @@ namespace B2U
 
         private bool IsValidB2UMaterial(string path, string fileName)
         {
-            if (path.Contains("/B2U/Materials/Ubershaders/"))
+            bool isB2URoot = path.StartsWith("Packages/ca.dnart.b2umaterialmaster/", StringComparison.OrdinalIgnoreCase) ||
+                             path.Contains("/B2U/", StringComparison.OrdinalIgnoreCase);
+
+            if (!isB2URoot)
+            {
+                return false;
+            }
+
+            if (path.Contains("/Materials/Ubershaders/"))
             {
                 return fileName == "Opaque_DS_U" ||
                        fileName == "Liquid_U" ||
@@ -639,7 +647,7 @@ namespace B2U
                        fileName == "Transparent_U";
             }
 
-            if (path.Contains("/B2U/Materials/Keyworded/"))
+            if (path.Contains("/Materials/Keyworded/"))
             {
                 if (path.Contains("/Liquid/Tessellated/") && fileName.EndsWith("_Tess_Liquid")) return true;
                 if (path.Contains("/Liquid/Volumetric/") && fileName.EndsWith("_Liquid")) return true;

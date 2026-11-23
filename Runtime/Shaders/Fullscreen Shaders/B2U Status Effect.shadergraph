@@ -2402,7 +2402,7 @@
     "m_Title": "Burning",
     "m_Position": {
         "x": -4159.0,
-        "y": -1091.0
+        "y": -1090.999755859375
     }
 }
 
@@ -3867,7 +3867,7 @@
     "m_Title": "Blessed",
     "m_Position": {
         "x": -4155.0,
-        "y": 719.0
+        "y": 718.9999389648438
     }
 }
 
@@ -4411,7 +4411,7 @@
     "m_Title": "Injury Overlay",
     "m_Position": {
         "x": -2254.0,
-        "y": 157.0
+        "y": 156.99998474121095
     }
 }
 
@@ -5675,7 +5675,7 @@
     "m_PerRendererData": false,
     "m_customAttributes": [],
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"864097d3ed9ba5248b383a5b33ea153b\",\"type\":3}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "isMainTexture": false,
@@ -6124,7 +6124,7 @@
     "m_Title": "Glitched",
     "m_Position": {
         "x": -4176.0,
-        "y": 1082.0
+        "y": 1081.9998779296875
     }
 }
 
@@ -8498,8 +8498,8 @@
     "m_ObjectId": "c7353891cad64149bf7657e16cdb6e3b",
     "m_Title": "Get Blit Source",
     "m_Position": {
-        "x": -3093.0,
-        "y": 439.0
+        "x": -3092.999755859375,
+        "y": 438.9999694824219
     }
 }
 
@@ -8729,7 +8729,7 @@
     "m_Title": "Shocked",
     "m_Position": {
         "x": -4166.0,
-        "y": -367.0
+        "y": -367.0000305175781
     }
 }
 
@@ -8758,7 +8758,7 @@
     "m_Title": "Cursed",
     "m_Position": {
         "x": -4155.0,
-        "y": 359.0
+        "y": 358.9999694824219
     }
 }
 
@@ -8946,7 +8946,7 @@
     "m_CustomBinding": "",
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"864097d3ed9ba5248b383a5b33ea153b\",\"type\":3}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "m_DefaultType": 0
@@ -9949,7 +9949,7 @@
     "m_Title": "Frozen",
     "m_Position": {
         "x": -4177.0,
-        "y": -729.0
+        "y": -728.9998168945313
     }
 }
 

@@ -114,6 +114,8 @@ public class SceneController : MonoBehaviour
                 }
             }
         }
+
+        mainLight.transform.rotation *= Quaternion.AngleAxis(10f * Time.deltaTime, Vector3.right);
     }
 
     public void QuitGame(InputAction.CallbackContext context)

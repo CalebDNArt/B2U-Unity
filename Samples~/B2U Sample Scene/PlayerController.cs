@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour
 {
     public static bool playerControl = true;
     public bool localControl = true;
-    public bool interactingWithStation = false;
 
     public static Vector3 playerPosition;
 
@@ -34,8 +33,6 @@ public class PlayerController : MonoBehaviour
     private float camPitch = 0f;
     private float camYaw = 0f;
 
-    private RaycastHit interactionHit;
-    public LayerMask interactionLayer;
 
     private SampleSceneInputActions actions => SceneController.actions;
 

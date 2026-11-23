@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::B2U.B2UPaletteData
   paletteName: Sample_Scene_1
   palettePath: C:/Users/Caleb/Desktop/B2U Palettes/Sample_Scene_1.json
-  folderPath: Assets\Samples\B2U Sample Scene
+  folderPath: Packages\ca.dnart.b2umaterialmaster\Samples\B2U Sample Scene
   serializedMaterials:
   - isBiomeResponsive: 0
     biomeType: INDEPENDENT
@@ -2034,8 +2034,8 @@ MonoBehaviour:
       pixelChannel: 3
       minMax: {x: 0, y: 1}
       type: 0
-  colorLUT: {fileID: 2800000, guid: cf41efb686cdb45468c2128b2c25eb7c, type: 3}
-  propertyLUT: {fileID: 2800000, guid: 1154640f805510842a5523e3fb28d98f, type: 3}
+  colorLUT: {fileID: 2800000, guid: 3b17aca822527ff4fbadd63ec35d77ad, type: 3}
+  propertyLUT: {fileID: 2800000, guid: be35329641850a548bc50c7ef7581755, type: 3}
   iridescenceLUT: {fileID: 2800000, guid: 71b07ae1b04f85a4db784fd098689f70, type: 3}
   emissionPatterns: {fileID: 2800000, guid: ddcb04ba2f40a784c95991ab640a6e23, type: 3}
   detailAtlas: {fileID: 18700000, guid: 8809015c26d825d4abdfbea7159f48db, type: 3}

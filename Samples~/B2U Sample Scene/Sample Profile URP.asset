@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sample Profile URP
   m_EditorClassIdentifier: Assembly-CSharp::B2U.B2UShaderProfile
   profileName: 
-  paletteData: {fileID: 11400000, guid: 4581a746fc27b1c4584e0fde904ae87d, type: 2}
+  paletteData: {fileID: 11400000, guid: cbe927640f29c184495f3ede2c0ae4db, type: 2}
   savedData:
   - keyName: BiomeTexture1
     fValue: 0
@@ -24,7 +24,7 @@ MonoBehaviour:
     lValue:
       serializedVersion: 2
       m_Bits: 0
-    oValue: {fileID: 2800000, guid: cbef5a66a040f77449fbabcd546d16a5, type: 3}
+    oValue: {fileID: 2800000, guid: 42233b063be2e6a45b12c044a0506368, type: 3}
   - keyName: BiomeTexture2
     fValue: 0
     iValue: 0
@@ -34,7 +34,7 @@ MonoBehaviour:
     lValue:
       serializedVersion: 2
       m_Bits: 0
-    oValue: {fileID: 2800000, guid: 54632e362bb0be84cba8e9489e452ff4, type: 3}
+    oValue: {fileID: 2800000, guid: b6e77af71c0ec324abd5bd4021dcdfdc, type: 3}
   - keyName: ColorEmissionLUT
     fValue: 0
     iValue: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
     lValue:
       serializedVersion: 2
       m_Bits: 0
-    oValue: {fileID: 2800000, guid: cf41efb686cdb45468c2128b2c25eb7c, type: 3}
+    oValue: {fileID: 2800000, guid: 3b17aca822527ff4fbadd63ec35d77ad, type: 3}
   - keyName: PropertyLUT
     fValue: 0
     iValue: 0
@@ -54,7 +54,7 @@ MonoBehaviour:
     lValue:
       serializedVersion: 2
       m_Bits: 0
-    oValue: {fileID: 2800000, guid: 1154640f805510842a5523e3fb28d98f, type: 3}
+    oValue: {fileID: 2800000, guid: be35329641850a548bc50c7ef7581755, type: 3}
   - keyName: IridescenceLUT
     fValue: 0
     iValue: 0
