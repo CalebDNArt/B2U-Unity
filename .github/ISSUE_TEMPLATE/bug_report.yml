@@ -1,0 +1,89 @@
+name: Bug Report
+description: Report a bug, shader artifact, or editor error in the B2U Unity package.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue in **B2U Material Master (Unity)**! Filling out the details below helps narrow down rendering and editor bugs much faster.
+
+  - type: input
+    id: b2u-version
+    attributes:
+      label: B2U Package Version
+      placeholder: "e.g., 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: unity-version
+    attributes:
+      label: Unity Version
+      placeholder: "e.g., 6000.5.0f1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: urp-path
+    attributes:
+      label: URP Rendering Path
+      options:
+        - Forward
+        - Forward+
+        - Deferred (Unsupported / Testing)
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected Area
+      options:
+        - Shaders & Materials (Solid / Crystal / Liquid)
+        - Volumetric Refraction Feature
+        - Edge Detection Feature
+        - Fullscreen Effects (Immersion / Recolor / Stylize / Status)
+        - Control Panel
+        - Palette Tweaker
+        - Material Changer
+        - Asset Postprocessing / Importing
+        - Runtime API / Animations / RSUV
+        - Sample Scene / Setup
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected to happen instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps needed to trigger the issue.
+      placeholder: |
+        1. Open...
+        2. Change...
+        3. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console Logs / Errors
+      description: Paste any relevant Unity Console errors or stack traces (if applicable).
+      render: shell
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Video
+      description: Drag and drop screenshots, GIFs, or Frame Debugger captures here if helpful.
