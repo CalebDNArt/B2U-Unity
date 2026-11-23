@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: B2UStatusEffectMat
+  m_Shader: {fileID: -6465566751694194690, guid: 3694b0aa4a906a4458e59895af599aa7, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _MAIN_LIGHT_SHADOWS
+  - _MAIN_LIGHT_SHADOWS_CASCADE
+  - _SHADOWS_SOFT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _B2UStatusCursed_3fb98def0c134b318ef3c9c1aa4747c7_B2UFullscreenBlitSource_4224513438_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _B2UStatusCursed_3fb98def0c134b318ef3c9c1aa4747c7_Texture2D1_4224513438_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _B2UStatusCursed_3fb98def0c134b318ef3c9c1aa4747c7_Texture2D_1721087520_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _B2UStatusGlitched_ae32804ea0e3416499f1cfd48662b70b_GradientTexture_162355419_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _B2UStatusShocked_3c8055e57b5941d88c6ae5904a402df8_GradientTexture_4231106624_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _B2U_Fullscreen_Blit_Source:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _B2U_Status_Effect_Gradient_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Effect_Texture:
+        m_Texture: {fileID: 2800000, guid: 1ea696bdc381d2f40a80f3674cf4acd9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient_Texture:
+        m_Texture: {fileID: 2800000, guid: 864097d3ed9ba5248b383a5b33ea153b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_5eef49b1e9c84dda8f91196692e2e485_Out_0_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_c67398c7e502414c9ed80a5abcac95b0_Out_0_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - SHADOWS_SOFT: 1
+    - _B2U_STATUS_EFFECT: 6
+    - _B2U_Status_Effect_Generic_1: 0.75
+    - _B2U_Status_Effect_Generic_2: 10
+    - _B2U_Status_Effect_Generic_3: 0.1
+    - _B2U_Status_Effect_Generic_4: 2
+    - _B2U_Status_Effect_Scale: 5
+    - _B2U_USE_BLIT_TEXTURE: 1
+    - _Blend: 1
+    - _EFFECT_ACTIVE: 1
+    - _Effect_Distortion_Strength: 0.01
+    - _Effect_Generic_1: 1
+    - _Effect_Generic_2: 10
+    - _Effect_Generic_3: 0.025
+    - _Effect_Generic_4: 1
+    - _Effect_Scale: 4
+    - _Global_Status_Alpha: 1
+    - _Injury_Darken_Amount: 0.25
+    - _Injury_Darken_Strength: 0.25
+    - _Injury_Distortion_Strength: 0
+    - _Injury_Pulse_Speed: 3
+    - _Injury_Strength: 0
+    - _Injury_Vignette_Strength: 1
+    - _MAIN_LIGHT_SHADOWS: 1
+    - _MAIN_LIGHT_SHADOWS_CASCADE: 1
+    - _SHADOWS_SOFT: 1
+    - _SOFT_SHADOWS: 1
+    - _STATUS_EFFECT: 4
+    - _Status_Strength: 1
+    - _USE_BLITT_EXTURE: 1
+    - _USE_INJURY_OVERLAY: 1
+    m_Colors:
+    - _Injury_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

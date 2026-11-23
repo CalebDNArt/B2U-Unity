@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9902a6422960164cb64bcaa2457a8b6, type: 3}
+  m_Name: Stylize Presets
+  m_EditorClassIdentifier: Assembly-CSharp::B2UStylizePresetCollection
+  presets:
+  - {fileID: 11400000, guid: 487a1df7bad94c54bb4b62c33b28f6df, type: 2}
+  - {fileID: 11400000, guid: 722b9a6673bc8ed40811c3151955f3bd, type: 2}
+  - {fileID: 11400000, guid: 4999159cc6ae51942b5cbb351e77db5b, type: 2}
+  activePreset: 2

@@ -1,0 +1,916 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77cbc71ec9f7f954d9bd18997541cb35, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: Assembly-CSharp::B2U.B2UShaderPreset
+  presetName: 
+  paletteData: {fileID: 11400000, guid: d75b5815627f9ed48bae6205ae0f67a6, type: 2}
+  savedRuntimeData:
+  - keyName: BiomeTexture1
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 2800000, guid: e7d25748e36999843b6ed14df36aa7ff, type: 3}
+  - keyName: BiomeTexture2
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 2800000, guid: c633f45df794aba4fa187721a43da154, type: 3}
+  - keyName: ColorEmissionLUT
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 2800000, guid: b1a315ac1ac6908449947fd01e016a56, type: 3}
+  - keyName: PropertyLUT
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 2800000, guid: e53ce685be5713142944e742d481966b, type: 3}
+  - keyName: IridescenceLUT
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 2800000, guid: 864097d3ed9ba5248b383a5b33ea153b, type: 3}
+  - keyName: EmissionPatterns
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 2800000, guid: 2d2dd8849cf8113449fda994a8eaf1d2, type: 3}
+  - keyName: DetailMapAtlas
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 18700000, guid: 6dc22172b9a81024ab428c0d552f1377, type: 3}
+  - keyName: NoiseTexture
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 11700000, guid: 997c098a78bd10a4ebf392efa07dcda5, type: 3}
+  - keyName: PaintPalette
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 18700000, guid: d427f2deda75755418d5ab8c9894c002, type: 3}
+  - keyName: NumberOfSubbiomes
+    fValue: 0
+    iValue: 3
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: WorldSize
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 2000, y: 2000}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: GlobalEmissionStrength
+    fValue: 1
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: GlobalEmissionSpeed
+    fValue: 1
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: GlobalCracksUseEmissionColor
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: GlobalCrackColor
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 1, g: 0.25, b: 0.9796628, a: 1}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: GlobalCrackBrightness
+    fValue: 1
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: TriplanarBlendPower
+    fValue: 10
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: SolidNoiseScale
+    fValue: 1
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: SolidNoiseStrength
+    fValue: 0.5
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: SolidHardEdgeColor
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 1, g: 1, b: 1, a: 1}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: SolidEdgeStrength
+    fValue: 1
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: SolidEdgeThickness
+    fValue: 1
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: SolidEdgePower
+    fValue: 1
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: SolidCrackScale
+    fValue: 10
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: LiquidBubbleMultiplier
+    fValue: 0.1
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: LiquidAngleOffsetSpeed
+    fValue: 1
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: LiquidRefractionDistortionStrength
+    fValue: 1
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: LiquidShoreDistance
+    fValue: 1
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: LiquidNormalStrength
+    fValue: 0.1
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: LiquidCausticStrength
+    fValue: 2
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: TessFactor
+    fValue: 0
+    iValue: 5
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: MinTessDistance
+    fValue: 5
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: MaxTessDistance
+    fValue: 25
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: CrystalCrackScale
+    fValue: 20
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: UseNoiseForSolids
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: UseProceduralNoiseForSolids
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: UseProceduralNoiseForLiquids
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: UseBubbleAdvection
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: UseAngleOffset
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: ChromaticAbberationForLiquids
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: LiquidsHaveVertexDisplacement
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: TessellatedLiquidsResampleInFragment
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: IridescenceMode
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: CrystalFlareMode
+    fValue: 0
+    iValue: 1
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: CausticMode
+    fValue: 0
+    iValue: 1
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: RefractionQualityMode
+    fValue: 0
+    iValue: 2
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: EdgeDetectionBufferResolution
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: EdgeDetectionSize
+    fValue: 2
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: EdgeDetectionSensitivity
+    fValue: 2
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: EdgeDetectionColor
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 1}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: EdgeDetectionLayermask
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 1
+    oValue: {fileID: 0}
+  - keyName: BackfaceBufferResolution
+    fValue: 0
+    iValue: 1
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: ColorCopyResolution
+    fValue: 0
+    iValue: 1
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: LightModel
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: LightControlFloat
+    fValue: 0.161
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: ImmersionActive
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: ImmersionTransitionEnabled
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: ImmersionTransitionDistance
+    fValue: 1
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: ImmersionClarity
+    fValue: 5
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: ImmersionDistortion
+    fValue: 0.005
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: ImmersionCausticStrength
+    fValue: 0.2
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: RecolorActive
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: RecolorBlend
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: RecolorPresets
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 11400000, guid: 4d74eca7573bb504f886346e724bafaa, type: 2}
+  - keyName: StylizeActive
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: StylizeBlend
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: StylizePresets
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 11400000, guid: e5ccf155a1ab94a47ac5414d056266d0, type: 2}
+  - keyName: StatusActive
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: StatusPresets
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 11400000, guid: 91c8b3f536f2f1d47a87533d4b54c49b, type: 2}
+  - keyName: StatusStrength
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: InjuryStrength
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: InjuryColor
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 1, g: 0, b: 0, a: 1}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: InjuryPulseSpeed
+    fValue: 3
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: InjuryVignetteStrength
+    fValue: 0.5
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: InjuryDarkenAmount
+    fValue: 0.5
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  savedEditorData:
+  - keyName: EdgeDetectionEnabled
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: VolumetricRefractionEnabled
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: FullscreenEffectsEnabled
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: EdgeDetectionMode
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: EdgeDetectionSpace
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: VolumetricLayer
+    fValue: 0
+    iValue: 6
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: VertexRGamma
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: VertexGGamma
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: VertexBGamma
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: SolidsHaveSmoothEdges
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: DetailMapAffectsHardEdges
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: LiquidEmissionHasFlow
+    fValue: 0
+    iValue: 0
+    bValue: 1
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: EdgeMode
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  - keyName: EdgeStyle
+    fValue: 0
+    iValue: 0
+    bValue: 0
+    cValue: {r: 0, g: 0, b: 0, a: 0}
+    vValue: {x: 0, y: 0}
+    lValue:
+      serializedVersion: 2
+      m_Bits: 0
+    oValue: {fileID: 0}
+  masterMaterials:
+  - {fileID: 2100000, guid: 3f5c6949ea083024ca2bfecf64d2271e, type: 2}
+  - {fileID: 2100000, guid: eaaf5999f8f510c43a8bd630c18af924, type: 2}
+  - {fileID: 2100000, guid: 64e41542035d1124c83f112bdb28a3c7, type: 2}
+  - {fileID: 2100000, guid: caaeac47dc827854a8badc42f011165f, type: 2}
+  - {fileID: 2100000, guid: 17ad38826529f344da1088c98caf7f1e, type: 2}
+  - {fileID: 2100000, guid: 0161f61d8182a4040989893f607eed17, type: 2}
+  - {fileID: 2100000, guid: 2a464de3a653c294c9da317de583be5c, type: 2}

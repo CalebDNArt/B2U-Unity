@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BDE_Transparent
+  m_Shader: {fileID: -6465566751694194690, guid: e6458cad7ecc48244a1c97a90d416bd0, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _IS_BIOME_RESPONSIVE
+  - _IS_DETAIL_MAPPED
+  - _IS_EMISSIVE
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords:
+  - _B2U_WORKFLOW_TRANSPARENT
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  - DepthOnly
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _3D_Noise_Texture:
+        m_Texture: {fileID: 11700000, guid: 997c098a78bd10a4ebf392efa07dcda5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Biome_Texture_1:
+        m_Texture: {fileID: 2800000, guid: e7d25748e36999843b6ed14df36aa7ff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Biome_Texture_2:
+        m_Texture: {fileID: 2800000, guid: c633f45df794aba4fa187721a43da154, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Color_Emission_LUT:
+        m_Texture: {fileID: 2800000, guid: 668e18686d2b1994d9598c96a191c776, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Detail_Map_Atlas:
+        m_Texture: {fileID: 18700000, guid: cd8aa1068a740bf41b0ad02a43004be8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission_Patterns:
+        m_Texture: {fileID: 2800000, guid: 37ceeaa31e3b2b64eae72d0217132e20, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Iridescence_LUT:
+        m_Texture: {fileID: 2800000, guid: 025bfef8de07e334ca99538b6e9060e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Paint_Palette:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Property_LUT:
+        m_Texture: {fileID: 2800000, guid: 18fb00a0fc93fca4392fa8d668e0479a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _B2U_DOUBLE_SIDED: 0
+    - _B2U_WORKFLOW: 1
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _CastShadows: 1
+    - _Cull: 2
+    - _DstBlend: 10
+    - _DstBlendAlpha: 10
+    - _Global_Edge_Power: 1
+    - _Global_Edge_Thickness: 0.5
+    - _Global_Emission_Speed: 1
+    - _Global_Emission_Strength: 1
+    - _Global_Noise_Scale: 1
+    - _Global_Noise_Strength: 0.25
+    - _ISDETAILMAPPED: 1
+    - _IS_BIOME_RESPONSIVE: 1
+    - _IS_DETAIL_MAPPED: 1
+    - _IS_EMISSIVE: 1
+    - _IS_IRIDESCENT: 0
+    - _IS_UBERSHADER: 0
+    - _LIGHTING_MODEL: 0
+    - _Number_of_Biome_Subtypes: 3
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _SMOOTH_EDGES: 1
+    - _SURFACE_TYPE_TRANSPARENT: 0
+    - _SrcBlend: 5
+    - _SrcBlendAlpha: 1
+    - _Surface: 1
+    - _TestInvert: 0
+    - _Test_Index: 0
+    - _Test_Lerp: 0
+    - _Test_Strength: -1
+    - _Triplanar_Blend_Power: 10
+    - _USE_WORLD_SPACE_NOISE: 1
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
+    m_Colors:
+    - _World_Size: {r: 2000, g: 2000, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &6501653557688312256
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10

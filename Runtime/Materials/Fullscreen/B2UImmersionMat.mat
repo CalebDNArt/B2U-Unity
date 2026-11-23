@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: B2UImmersionMat
+  m_Shader: {fileID: -6465566751694194690, guid: 0419896510af64141af6052142a90025, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _MAIN_LIGHT_SHADOWS
+  - _SHADOWS_SOFT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AbsMult: 5
+    - _Alpha: 1
+    - _Caustic_Multiplier: 0.25
+    - _Clarity_Multiplier: 5
+    - _Distortion_Strength: 0.005
+    - _Liquid_ID: 8
+    - _Liquid_Surface_Y: 1.05
+    - _MAIN_LIGHT_SHADOWS: 1
+    - _SHADOWS_SOFT: 1
+    m_Colors:
+    - _Depth_and_isTransmissive: {r: 0, g: 0, b: 1, a: 1}
+    - _Optical_Properties: {r: 1, g: 5, b: 1.5, a: 0.01}
+    - _Surface_and_Scale: {r: 0.5, g: 1, b: 1, a: 0.5}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

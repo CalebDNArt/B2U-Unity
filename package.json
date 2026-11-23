@@ -1,0 +1,30 @@
+{
+  "name": "ca.dnart.b2umaterialmaster",
+  "displayName": "B2U Material Master",
+  "version": "1.0.0",
+  "samples": [
+    {
+      "displayName": "B2U Sample Scene",
+      "description": "An interactive scene demonstrating liquid advection, solid materials, and runtime RSUV control.",
+      "path": "Samples~/B2U Sample Scene"
+    }
+  ],
+  "unity": "6000.5",
+  "unityRelease": "0f1",
+  "description": "A free technical art pipeline for creating textureless vertex-data and LUT-driven materials in Unity. Integrates directly with Blender to paint materials directly on meshes. \n\nKey Features:\n\u25aaSRP and GRD batching support for all materials\n\u25aaAssign materials directly onto faces in Blender\n\u25aaCreate flowing liquids with CPU accessible flow vectors to push objects\n\u25aaHave per object control of several values through Renderer Set User Values (RSUV)\n\u25aaUse mutliple performance profiles\n\u25aaUse mutliple different palettes to change the look of the entire scene\n\u25aaAnimate various B2U features through scripting or the Unity Animator\n\u25aaVolumetric optics for liquids and crystals\n\u25aaFullscreen edge detection\n\u25aaFullscreen stylization\n\u25aaFullscreen recoloring\n\u25aaFullscreen status effects\n\nAnd more! Please look at the documentation to see all available features and guides on how to use the package.\n\n<color=\"red\">WARNING: This package is still in beta, there will be bugs and issues. I would greatly appreciate if you are able to report any bugs at dnart.ca/b2u/bugs</color>\n\n<color=\"yellow\">AI USE DISCLAIMER: AI was used in the development of code for this package. As a solo dev, I would not have been able to make this package in less than a year without it.  I did write the majority of code myself, with AI being used for bug fixing and code review. NO AI HAS BEEN USED FOR ANY IMAGE ASSETS. All default images have been made myself in blender or photoshop. If you do not feel comfortable using the package due to AI usage I absolutely respect your right to decline usage, please feel free to use the source code if you would like to develop your own version. Thank you!</color>",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.2",
+    "com.unity.burst": "1.8.9",
+    "com.unity.mathematics": "1.2.6",
+    "com.unity.collections": "2.1.4"
+  },
+  "author": {
+    "name": "DNArt",
+    "url": "https://www.dnart.ca",
+    "email": "dnart@dnart.ca"
+  },
+  "changelogUrl": "https://dnart.ca/b2u/changelog",
+  "documentationUrl": "https://dnart.ca/b2u/",
+  "license": "MIT",
+  "licensesUrl": "https://opensource.org/licenses/MIT"
+}

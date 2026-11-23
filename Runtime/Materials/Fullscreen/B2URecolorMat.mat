@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: B2URecolorMat
+  m_Shader: {fileID: -6465566751694194690, guid: dabfeeda1519f3c489ce16042716794d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _B2U_Fullscreen_Blit_Source:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BLEND_STYLE: 2
+    - _Blend: 0
+    - _Invert_Blend_Direction: 0
+    - _PULSE: 1
+    - _Pulse_Attenuation: 20
+    - _Pulse_Frequency: 1
+    - _Pulse_Intensity: 1
+    - _Pulse_Speed: 3
+    - _RECOLOR_SOURCE: 0
+    - _USE_BLITT_EXTURE: 1
+    m_Colors:
+    - _Blend_Edge_Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Depth_MinMax: {r: 5, g: 20, b: 0, a: 0}
+    - _Pulse_Size: {r: 0, g: 1, b: 0, a: 0}
+    - _Vignette_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

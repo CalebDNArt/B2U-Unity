@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6122716d08efd174e9437e39ca0b20c2, type: 3}
+  m_Name: Recolor Presets
+  m_EditorClassIdentifier: Assembly-CSharp::B2URecolorPresetCollection
+  presets:
+  - {fileID: 11400000, guid: 9d76ed9a8532f924a991270559fcca1a, type: 2}
+  - {fileID: 11400000, guid: 7cd6f4277efac94449230ac0cacdc71d, type: 2}
+  - {fileID: 11400000, guid: 5f42f587e184bfb438da81e5316bc6fc, type: 2}
+  activePreset: 2

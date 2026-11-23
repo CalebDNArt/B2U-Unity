@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1231a839896426b45b10ed73091db8b8, type: 3}
+  m_Name: Status Effects
+  m_EditorClassIdentifier: Assembly-CSharp::B2UStatusEffectPresetCollection
+  presets:
+  - {fileID: 11400000, guid: c360461fd6d7b2b4f91b30eb2f90615f, type: 2}
+  - {fileID: 11400000, guid: 4b244e19c6b50b24da196c6c74030b18, type: 2}
+  - {fileID: 11400000, guid: 472bcaa8ba201a3408589e0174804051, type: 2}
+  - {fileID: 11400000, guid: aecc0288e56536e47968682dd35f7151, type: 2}
+  - {fileID: 11400000, guid: 0e4434078c96a6a4c804af97a9efb041, type: 2}
+  - {fileID: 11400000, guid: 7e57868be7c88344d88b557b73d14735, type: 2}
+  - {fileID: 11400000, guid: f834cb85ebdbc18488e982e6981e9e4e, type: 2}
+  - {fileID: 11400000, guid: a40871925725e714e80a0c773b3e7a94, type: 2}
+  activePreset: 2
