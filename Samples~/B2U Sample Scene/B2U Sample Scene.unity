@@ -5405,7 +5405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8ccd441602d85947b95581909d0eb6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::B2U.B2URuntimeManager
-  defaultProfile: {fileID: 0}
+  defaultProfile: {fileID: 11400000, guid: de8a344868b52db4d85825a3ec1e9ed1, type: 2}
   hasActiveStatusEffect: 0
   activeStatusEffectType: 0
 --- !u!4 &353810754
@@ -22377,7 +22377,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: ab09877e2e707104187f6f83e2f62510, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 3e4bb3a6bb6e2ba4983d3d592ac344f4, type: 2}
 --- !u!4 &1919141196
 Transform:
   m_ObjectHideFlags: 0

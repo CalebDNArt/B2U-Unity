@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using static B2U.B2UDebug;
 
 namespace B2U
@@ -150,6 +151,32 @@ namespace B2U
         #endregion
 
         #region Unity Lifecycle
+        private void OnEnable()
+        {
+            SceneManager.sceneLoaded += OnSceneLoaded;
+        }
+
+        private void OnDisable()
+        {
+            SceneManager.sceneLoaded -= OnSceneLoaded;
+        }
+
+        private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+        {
+            BindDefaultProfileIfNeeded();
+        }
+
+        private void BindDefaultProfileIfNeeded()
+        {
+            if (defaultProfile == null) return;
+
+            // Only bind if nothing is active yet (or remove this check if each scene should force its own defaultProfile)
+            if (B2URuntimeUtility.ActiveProfile == null)
+            {
+                B2URuntimeUtility.SetB2UShaderPropertyValuesFromProfile(defaultProfile);
+            }
+        }
+
         private void Awake()
         {
             if (Instance != null && Instance != this)
