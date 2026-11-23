@@ -1,0 +1,46 @@
+name: Feature Suggestion
+description: Suggest a new feature, shader capability, or workflow improvement for B2U Unity.
+title: "[Suggestion]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for **B2U Material Master (Unity)**? Describe what you would like to see below!
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Shaders & Materials
+        - Render Features & Fullscreen Effects
+        - Editor Tools (Control Panel / Tweaker / Material Changer)
+        - Runtime API & Animations
+        - Performance & Batching
+        - Documentation / Sample Scene
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem or use case does this solve?
+      description: Explain the workflow bottleneck or visual effect you are trying to achieve.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe how you envision this feature working in Unity.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context / References
+      description: Add any mockups, links, or reference images if helpful.
