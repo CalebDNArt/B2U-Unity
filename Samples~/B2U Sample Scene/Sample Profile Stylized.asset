@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sample Profile Stylized
   m_EditorClassIdentifier: dnart.b2umaterialmaster::B2U.B2UShaderProfile
   profileName: 
-  paletteData: {fileID: 11400000, guid: 171fae9436706ae4282a8fad4c4151ba, type: 2}
+  paletteData: {fileID: 11400000, guid: cbe927640f29c184495f3ede2c0ae4db, type: 2}
   savedData:
   - keyName: BiomeTexture1
     fValue: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
     lValue:
       serializedVersion: 2
       m_Bits: 0
-    oValue: {fileID: 2800000, guid: 3137c1f8618d438439498eb111feb5fb, type: 3}
+    oValue: {fileID: 2800000, guid: 3b17aca822527ff4fbadd63ec35d77ad, type: 3}
   - keyName: PropertyLUT
     fValue: 0
     iValue: 0
@@ -54,7 +54,7 @@ MonoBehaviour:
     lValue:
       serializedVersion: 2
       m_Bits: 0
-    oValue: {fileID: 2800000, guid: e60e572ebc92d6946918884618f69e5a, type: 3}
+    oValue: {fileID: 2800000, guid: be35329641850a548bc50c7ef7581755, type: 3}
   - keyName: IridescenceLUT
     fValue: 0
     iValue: 0

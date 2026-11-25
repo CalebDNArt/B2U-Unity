@@ -6,7 +6,7 @@
     {
       "displayName": "B2U Sample Scene",
       "description": "An interactive scene demonstrating liquid advection, solid materials, and runtime RSUV control.",
-      "path": "Samples~/B2U Sample Scene"
+      "path": "Samples/B2U Sample Scene"
     }
   ],
   "unity": "6000.5",
