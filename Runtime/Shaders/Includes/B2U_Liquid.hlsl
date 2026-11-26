@@ -559,7 +559,7 @@ void B2USolveWavesAnalyticalInternal(float3 Pos_WS, half Mesh_ID, half Viscosity
                 }
             }
         }
-        Wave_Normal = half3(-waveGradient.x, 0.0, -waveGradient.y);
+        Wave_Normal = half3(waveGradient.x, 0.0, waveGradient.y);
     #endif
 }
 
@@ -1032,8 +1032,8 @@ void B2USolveSurfaceTessellated(UnityTexture2D Color_Emission_LUT, UnityTexture2
 
             float3 scaledPosWS = Pos_WS * (float)Noise_Scale * 1.15;
 
-            float3 noiseSamplePosA = ((float3)Flow_A - scaledPosWS) + domainDistortion + offsetA + advectionOffset;
-            float3 noiseSamplePosB = ((float3)Flow_B - scaledPosWS) + domainDistortion + offsetB + advectionOffset;
+            float3 noiseSamplePosA = ((float3)Flow_A - scaledPosWS) + domainDistortion + offsetA + (advectionOffset * Phase_A);
+            float3 noiseSamplePosB = ((float3)Flow_B - scaledPosWS) + domainDistortion + offsetB + (advectionOffset * Phase_B);
 
             float noiseSampleA = SAMPLE_TEXTURE3D_LOD(Noise_3D, LinearRepeat, noiseSamplePosA, 0).a;
             float noiseSampleB = SAMPLE_TEXTURE3D_LOD(Noise_3D, LinearRepeat, noiseSamplePosB, 0).a;
