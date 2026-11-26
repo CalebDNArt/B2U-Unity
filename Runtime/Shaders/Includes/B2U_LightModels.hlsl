@@ -161,7 +161,7 @@ float3 B2U_Light_Toon(InputData inputData, SurfaceData surfaceData, float steps)
     float rimCone = saturate((oneMinusNdotV - rimThreshold) / max(1.0 - rimThreshold, 0.0001));
     float steppedRim = (ceil(rimCone * safeSteps) / safeSteps) * surfaceData.smoothness;
 
-    float3 rimTint = lerp(float3(0.04, 0.04, 0.04), surfaceData.albedo, surfaceData.metallic);
+    float3 rimTint = lerp(float3(0.35, 0.35, 0.35), surfaceData.albedo, surfaceData.metallic);
     float3 ambientRim = inputData.bakedGI * rimTint * steppedRim * surfaceData.occlusion;
 
     color += ambientDiffuse + ambientRim + surfaceData.emission;
