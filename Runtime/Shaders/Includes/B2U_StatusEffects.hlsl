@@ -436,7 +436,7 @@ void B2UStatusRaysInternal(float2 UV, float Time, float RayCount, float EdgeFade
 
         float pulseSpeed = 1.2 + rayHash.x * 2.8;
         float pulsePhase = rayHash.y * 6.2831853;
-        float morph = sin(t * pulseSpeed + pulsePhase) * 0.5 + 1.2;
+        float morph = sin(t * pulseSpeed + pulsePhase) * 0.5 + 0.5;
 
         float rayHalfWidth = lerp(0.07, 0.92, morph * morph);
 
