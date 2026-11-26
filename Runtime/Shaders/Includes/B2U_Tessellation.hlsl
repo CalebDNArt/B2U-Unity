@@ -151,7 +151,7 @@ PackedVaryings domain(TessellationFactors factors, OutputPatch<PackedVaryings, 3
     ), float3(1e-8, 1e-8, 1e-8));
 
     float3 truePosOS = mul(invRot, v.positionWS - worldOffset) / scaleSq;
-    half3 trueNormalOS = (half3)SafeNormalize(mul(invRot, v.normalWS) * rsqrt(scaleSq));
+    half3 trueNormalOS = (half3)SafeNormalize(mul(invRot, v.normalWS));
 
     // C. Build Texture Structs
     UnityTexture2D texColorLUT = UnityBuildTexture2DStructNoScale(_B2U_Color_Emission_LUT);
