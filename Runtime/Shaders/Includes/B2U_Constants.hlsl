@@ -31,7 +31,7 @@ static const half2 Opaque_r1_p1_r_MinMax = half2(0.0, 5.0);
 static const half2 Opaque_r1_p1_g_MinMax = half2(0.0, 5.0);
 
 /// <summary>
-/// Iridescence Srength
+/// Iridescence Strength
 /// </summary>
 static const half2 Opaque_r1_p1_b_MinMax = half2(0.0, 3.0);
 
@@ -121,7 +121,7 @@ static const half2 Transparent_r1_p1_r_MinMax = half2(0.0, 5.0);
 static const half2 Transparent_r1_p1_g_MinMax = half2(0.0, 5.0);
 
 /// <summary>
-/// Iridescence Srength
+/// Iridescence Strength
 /// </summary>
 static const half2 Transparent_r1_p1_b_MinMax = half2(0.0, 3.0);
 
@@ -348,12 +348,12 @@ static const half2 Liquid_r1_p3_b_MinMax = half2(0.0, 3.0);
 /// <summary>
 /// Iridescence Power
 /// </summary>
-static const half2 Liquid_r1_p3_a_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r1_p3_a_MinMax = half2(0.0, 5.0);
 
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r1_p4_g_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r1_p4_g_MinMax = half2(0.0, 0.0);
 
 /// <summary>
 /// Emission Mode
@@ -393,66 +393,66 @@ static const half2 Liquid_r2_p1_b_MinMax = half2(1.0, 2.0);
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r2_p1_a_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r2_p1_a_MinMax = half2(0.0, 0.0);
 
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r2_p2_r_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r2_p2_r_MinMax = half2(0.0, 0.0);
 
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r2_p2_g_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r2_p2_g_MinMax = half2(0.0, 0.0);
 
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r2_p2_b_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r2_p2_b_MinMax = half2(0.0, 0.0);
 
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r2_p2_a_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r2_p2_a_MinMax = half2(0.0, 0.0);
 
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r2_p3_r_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r2_p3_r_MinMax = half2(0.0, 0.0);
 
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r2_p3_g_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r2_p3_g_MinMax = half2(0.0, 0.0);
 
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r2_p3_b_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r2_p3_b_MinMax = half2(0.0, 0.0);
 
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r2_p3_a_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r2_p3_a_MinMax = half2(0.0, 0.0);
 
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r2_p4_r_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r2_p4_r_MinMax = half2(0.0, 0.0);
 
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r2_p4_g_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r2_p4_g_MinMax = half2(0.0, 0.0);
 
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r2_p4_b_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r2_p4_b_MinMax = half2(0.0, 0.0);
 
 /// <summary>
 /// None (Not defined in schema)
 /// </summary>
-static const half2 Liquid_r2_p4_a_MinMax = half2(0.0, 3.0);
+static const half2 Liquid_r2_p4_a_MinMax = half2(0.0, 0.0);
 
 #endif
